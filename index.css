@@ -1,0 +1,64 @@
+#page {
+    color: #324a50;
+    /*background-color: #B1E1DF;*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+#title {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+#choose {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+}
+
+select {
+    font-size: 20px;
+    width: 200px;
+    background-color: rgb(175, 196, 214);
+    border: 0ch;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+embed {
+    overflow-y: scroll;
+    flex-grow: 2;
+    padding: 30px;
+    margin: 50px;
+    margin-top: 30px;
+    background-color: #324a5098;
+}
+
+button {
+    color: #324a50;
+    border: #324a5081 solid;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
